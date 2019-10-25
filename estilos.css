@@ -1,0 +1,224 @@
+/*
+verde oscuro #078539
+verde claro #5DE80C
+amarillo #FFEE00
+negro #000000
+*/
+
+* {
+  margin:0;
+  padding:0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  height: 100px;
+  border-bottom:#188507 solid 10px;
+  box-sizing: border-box;
+}
+
+.logo{
+  align-items: left;
+  align-content: left;
+  justify-content: center;
+  width:270px;
+  float:left;
+}
+
+nav {
+  float:right;
+}
+
+nav ul{
+  margin:0;
+  padding:0;
+  display: flex;
+}
+
+nav ul li{
+  list-style: none;
+}
+
+nav ul li a{
+  display:block;
+  margin:10px 0;
+  padding: 10px 20px;
+  text-decoration: none;
+  color:#078539;
+  font-weight: bold;
+}
+
+nav ul li:hover{
+  background-color:#188507;
+  color:#fff;
+}
+nav ul li a:hover{
+  background-color:#188507;
+  color:#fff;
+  text-align: center;
+}
+
+.principal {
+  width:100%;
+  height:400px;
+  background: url("IMG/principal1.jpg");
+  background-size:cover;
+  box-sizing: border-box;
+}
+
+.content{
+  background-color: rgba(255,238,0,0.0);
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+h1, h2, h3 {
+  padding:20px;
+  font-family: 'Roboto', sans-serif;
+  color:#078539;
+}
+
+.imagePrograma{
+  padding-right:30px;
+  margin-right:20px;
+  width:200px;
+  height: 200px;
+  background-size: cover;
+  float:right;
+}
+
+
+.wrapper{
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-gap:10px;
+  top:10px;
+  width:100%;
+  margin:auto;
+}
+.fotosCierre img{
+  height: 200px;
+  border: 3px solid #fff;
+}
+
+footer{
+  position:absolute;
+  background-color:#fff;
+  color:#188507;
+  text-align: right;
+  border-top:solid 5px #188507;
+  width:100%;
+}
+
+.Anibal{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Anibal img{
+  box-sizing: border-box;
+  height: 300px;
+}
+
+footer p {
+  display:block;
+  text-align: right;
+  font-family: "Roboto", sans-serif;
+  height: 200px;
+}
+
+div section div ul li p {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.nombreAlcalde{
+  text-align: center;
+}
+
+.concejales{
+  margin:0;
+  padding:0;
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+  grid-gap:5px;
+  width:100%;
+  margin:auto;
+}
+
+
+.foto figure img{
+  width: 300px;
+  height: auto;
+  float:right;
+  box-shadow: 3px 3px 3px #188507;
+}
+
+section{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+#titulovideos{
+  text-align: center;
+}
+
+@media (max-width:768px){
+    
+  .Anibal img{
+  box-sizing: border-box;
+  height: 200px;
+}
+
+
+  .principal{
+    display:flex;
+    width:100%;
+    height: 200px;
+  }
+  nav{
+    font-size:10px;
+  }
+
+  .wrapper{
+    display:block;
+  }
+
+  .imagePrograma{
+    width: 100px;
+    height: 100px;
+  }
+
+  .concejales {
+    display:block;
+  }
+
+  .foto{
+    margin-bottom:5px;
+    padding: 10px;
+    box-shadow: 0px 0px 0px white;
+  }
+
+  .foto figure img{
+    height: 200px;
+    display:block;
+  }
+
+
+}
+
+#Inicio{
+  font-family:'Roboto', sans-serif;
+  color:#188507;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+#Inicio:hover{
+  background-color: #188507;
+  color:white;
+}
